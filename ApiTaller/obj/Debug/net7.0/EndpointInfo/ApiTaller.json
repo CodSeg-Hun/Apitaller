@@ -1,0 +1,2736 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "ApiTaller",
+    "description": "API de Taller",
+    "version": "v1"
+  },
+  "paths": {
+    "/ConsultaActaEntrega": {
+      "get": {
+        "tags": [
+          "ActaEntrega"
+        ],
+        "parameters": [
+          {
+            "name": "ordenServicio",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "vehiculo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "idcliente",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "usuario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ActaEntregaResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ActaEntregaResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ActaEntregaResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ConsultatecnicoAsignar": {
+      "get": {
+        "tags": [
+          "Chequeo"
+        ],
+        "parameters": [
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "usuario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComboResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComboResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComboResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ConsultaData": {
+      "get": {
+        "tags": [
+          "Chequeo"
+        ],
+        "parameters": [
+          {
+            "name": "fechaini",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fechafin",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "tecnico",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ordenServicio",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "usuario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConsultaDatosResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConsultaDatosResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConsultaDatosResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ConsultaSupervisor": {
+      "get": {
+        "tags": [
+          "Chequeo"
+        ],
+        "parameters": [
+          {
+            "name": "fechaini",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fechafin",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "tecnico",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "taller",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ordenServicio",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "usuario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConsultaDatosResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConsultaDatosResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConsultaDatosResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ConsultarConvenio": {
+      "get": {
+        "tags": [
+          "Chequeo"
+        ],
+        "parameters": [
+          {
+            "name": "fechaini",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fechafin",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ordenServicio",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "usuario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "convenio",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConsultaDatosResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConsultaDatosResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConsultaDatosResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ConsultaImagen": {
+      "get": {
+        "tags": [
+          "Chequeo"
+        ],
+        "parameters": [
+          {
+            "name": "ordenServicio",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "usuario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "origen",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/FotoResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FotoResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FotoResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ConsultaReasignacion": {
+      "get": {
+        "tags": [
+          "Chequeo"
+        ],
+        "parameters": [
+          {
+            "name": "fechaini",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fechafin",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ordenServicio",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "vehiculo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "taller",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "tecnico",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "usuario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReasignacionResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReasignacionResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReasignacionResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Login": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginAPI"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginAPI"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginAPI"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UsuarioDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UsuarioDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UsuarioDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/LoginLatam": {
+      "get": {
+        "tags": [
+          "LoginLatam"
+        ],
+        "parameters": [
+          {
+            "name": "usuario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "password",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/LoginLatamResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LoginLatamResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LoginLatamResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/LoginTaller": {
+      "get": {
+        "tags": [
+          "LoginTaller"
+        ],
+        "parameters": [
+          {
+            "name": "usuario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "password",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/LoginTallerResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LoginTallerResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LoginTallerResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ConsultarRecepcionGeneral": {
+      "get": {
+        "tags": [
+          "Recepcion"
+        ],
+        "parameters": [
+          {
+            "name": "fechaini",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fechafin",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "usuario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RecepcionResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RecepcionResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RecepcionResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ConsultaRecepcion": {
+      "get": {
+        "tags": [
+          "Recepcion"
+        ],
+        "parameters": [
+          {
+            "name": "usuario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "identificacion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "placa",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "taller",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "orden",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "vehiculo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RecepcionResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RecepcionResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RecepcionResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ConsultaAccesorio": {
+      "get": {
+        "tags": [
+          "Recepcion"
+        ],
+        "parameters": [
+          {
+            "name": "usuario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AccesorioResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AccesorioResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AccesorioResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RecepcionDocumentoTecnico": {
+      "get": {
+        "tags": [
+          "Recepcion"
+        ],
+        "parameters": [
+          {
+            "name": "usuario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "vehiculo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "orden",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "taller",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "cliente",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "comentario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RecepcionResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RecepcionResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RecepcionResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RutaDocumentoFirma": {
+      "get": {
+        "tags": [
+          "Recepcion"
+        ],
+        "parameters": [
+          {
+            "name": "vehiculo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "orden",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "tipo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComboResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComboResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComboResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ConsultarDispositivoServicio": {
+      "get": {
+        "tags": [
+          "Servicio"
+        ],
+        "parameters": [
+          {
+            "name": "usuario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ordenServicio",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "vehiculo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ServicioResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ServicioResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ServicioResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ConsultarDatosControl": {
+      "get": {
+        "tags": [
+          "Servicio"
+        ],
+        "parameters": [
+          {
+            "name": "usuario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ordenServicio",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "vehiculo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "empresa",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ControlResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ControlResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ControlResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ConsultarCombo": {
+      "get": {
+        "tags": [
+          "Servicio"
+        ],
+        "parameters": [
+          {
+            "name": "usuario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComboResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComboResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComboResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ConsultarFoto": {
+      "get": {
+        "tags": [
+          "Servicio"
+        ],
+        "parameters": [
+          {
+            "name": "usuario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ordenServicio",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "vehiculo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "empresa",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/FotoResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FotoResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FotoResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ConsultasGenerales": {
+      "get": {
+        "tags": [
+          "Trabajo"
+        ],
+        "parameters": [
+          {
+            "name": "usuario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComboResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComboResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComboResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ConsultarDispositivo": {
+      "get": {
+        "tags": [
+          "Trabajo"
+        ],
+        "parameters": [
+          {
+            "name": "orden",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "dispositivo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "tipoDispositivo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "usuario",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DispositivoResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DispositivoResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DispositivoResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ConsultarIncidencias": {
+      "get": {
+        "tags": [
+          "Trabajo"
+        ],
+        "parameters": [
+          {
+            "name": "orden",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/IncidenciaResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IncidenciaResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IncidenciaResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ConsultarServiciosDisp": {
+      "get": {
+        "tags": [
+          "Trabajo"
+        ],
+        "parameters": [
+          {
+            "name": "orden",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ServiciosResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ServiciosResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ServiciosResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ConsultarOrdenServicio": {
+      "get": {
+        "tags": [
+          "Trabajo"
+        ],
+        "parameters": [
+          {
+            "name": "orden",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrdenServicioResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrdenServicioResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrdenServicioResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ConsultarOrdenTrabajo": {
+      "get": {
+        "tags": [
+          "Trabajo"
+        ],
+        "parameters": [
+          {
+            "name": "orden",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "tecnico",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "opcion",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrdenTrabajoResp"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrdenTrabajoResp"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrdenTrabajoResp"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AccesorioDTO": {
+        "type": "object",
+        "properties": {
+          "codigo": {
+            "type": "string",
+            "nullable": true
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "codigo2": {
+            "type": "string",
+            "nullable": true
+          },
+          "descripcion2": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AccesorioResp": {
+        "type": "object",
+        "properties": {
+          "respuesta": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AccesorioDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ActaEntregaDTO": {
+        "type": "object",
+        "properties": {
+          "SucursalId": {
+            "type": "string",
+            "nullable": true
+          },
+          "Sucursal": {
+            "type": "string",
+            "nullable": true
+          },
+          "CustodiaId": {
+            "type": "string",
+            "nullable": true
+          },
+          "ClienteId": {
+            "type": "string",
+            "nullable": true
+          },
+          "Cliente": {
+            "type": "string",
+            "nullable": true
+          },
+          "GrupoCodigo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Grupo": {
+            "type": "string",
+            "nullable": true
+          },
+          "VehiculoId": {
+            "type": "string",
+            "nullable": true
+          },
+          "PermitidoEntrega": {
+            "type": "string",
+            "nullable": true
+          },
+          "Origen": {
+            "type": "string",
+            "nullable": true
+          },
+          "AprobadoEntrega": {
+            "type": "string",
+            "nullable": true
+          },
+          "BajaAprobada": {
+            "type": "string",
+            "nullable": true
+          },
+          "EstadoCodigo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Estado": {
+            "type": "string",
+            "nullable": true
+          },
+          "TipoCodigo": {
+            "type": "string",
+            "nullable": true
+          },
+          "TipoCustodia": {
+            "type": "string",
+            "nullable": true
+          },
+          "ProductoCustodiaId": {
+            "type": "string",
+            "nullable": true
+          },
+          "ProductoCustodia": {
+            "type": "string",
+            "nullable": true
+          },
+          "TipoSerie": {
+            "type": "string",
+            "nullable": true
+          },
+          "Serie": {
+            "type": "string",
+            "nullable": true
+          },
+          "SerieDispositivo": {
+            "type": "string",
+            "nullable": true
+          },
+          "CustodiaDetalle": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ActaEntregaResp": {
+        "type": "object",
+        "properties": {
+          "respuesta": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ActaEntregaDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ComboDTO": {
+        "type": "object",
+        "properties": {
+          "codigo": {
+            "type": "string",
+            "nullable": true
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ComboResp": {
+        "type": "object",
+        "properties": {
+          "respuesta": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ComboDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ConsultaDatos": {
+        "type": "object",
+        "properties": {
+          "VehiculoId": {
+            "type": "string",
+            "nullable": true
+          },
+          "OrdenServicio": {
+            "type": "string",
+            "nullable": true
+          },
+          "ClienteId": {
+            "type": "string",
+            "nullable": true
+          },
+          "clienteNombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "TipoTrabajo": {
+            "type": "string",
+            "nullable": true
+          },
+          "VehiculoNombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "TurnoId": {
+            "type": "string",
+            "nullable": true
+          },
+          "Fecha": {
+            "type": "string",
+            "nullable": true
+          },
+          "Taller": {
+            "type": "string",
+            "nullable": true
+          },
+          "TallerId": {
+            "type": "string",
+            "nullable": true
+          },
+          "Motivo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Hora": {
+            "type": "string",
+            "nullable": true
+          },
+          "Comentario": {
+            "type": "string",
+            "nullable": true
+          },
+          "Categoria": {
+            "type": "string",
+            "nullable": true
+          },
+          "Concesionario": {
+            "type": "string",
+            "nullable": true
+          },
+          "OrdenTrabajo": {
+            "type": "string",
+            "nullable": true
+          },
+          "TecnicoId": {
+            "type": "string",
+            "nullable": true
+          },
+          "Recepcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "Grupo": {
+            "type": "string",
+            "nullable": true
+          },
+          "FueTal": {
+            "type": "string",
+            "nullable": true
+          },
+          "FueCiu": {
+            "type": "string",
+            "nullable": true
+          },
+          "ObTec": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ConsultaDatosResp": {
+        "type": "object",
+        "properties": {
+          "respuesta": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ConsultaDatos"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ControlDTO": {
+        "type": "object",
+        "properties": {
+          "codigo": {
+            "type": "string",
+            "nullable": true
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "calificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipoParametro": {
+            "type": "string",
+            "nullable": true
+          },
+          "item": {
+            "type": "string",
+            "nullable": true
+          },
+          "transaccion": {
+            "type": "string",
+            "nullable": true
+          },
+          "OrdenTrabajo": {
+            "type": "string",
+            "nullable": true
+          },
+          "fechaChequeo": {
+            "type": "string",
+            "nullable": true
+          },
+          "sucursalId": {
+            "type": "string",
+            "nullable": true
+          },
+          "parametro": {
+            "type": "string",
+            "nullable": true
+          },
+          "grupo": {
+            "type": "string",
+            "nullable": true
+          },
+          "estadoId": {
+            "type": "string",
+            "nullable": true
+          },
+          "accion": {
+            "type": "string",
+            "nullable": true
+          },
+          "usuarioChequeo": {
+            "type": "string",
+            "nullable": true
+          },
+          "instalador": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ControlResp": {
+        "type": "object",
+        "properties": {
+          "respuesta": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ControlDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DispositivoDTO": {
+        "type": "object",
+        "properties": {
+          "codigo": {
+            "type": "string",
+            "nullable": true
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "NumberBox": {
+            "type": "string",
+            "nullable": true
+          },
+          "ACTIVACION": {
+            "type": "string",
+            "nullable": true
+          },
+          "RESPUESTA": {
+            "type": "string",
+            "nullable": true
+          },
+          "OrdenTrabajo": {
+            "type": "string",
+            "nullable": true
+          },
+          "TIPO": {
+            "type": "string",
+            "nullable": true
+          },
+          "UBICACION": {
+            "type": "string",
+            "nullable": true
+          },
+          "SERIE": {
+            "type": "string",
+            "nullable": true
+          },
+          "VIP": {
+            "type": "string",
+            "nullable": true
+          },
+          "IP": {
+            "type": "string",
+            "nullable": true
+          },
+          "SIM": {
+            "type": "string",
+            "nullable": true
+          },
+          "NumeroCelularSIM": {
+            "type": "string",
+            "nullable": true
+          },
+          "UNIDAD": {
+            "type": "string",
+            "nullable": true
+          },
+          "ModeloDispositivo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Servidor": {
+            "type": "string",
+            "nullable": true
+          },
+          "Firmware": {
+            "type": "string",
+            "nullable": true
+          },
+          "SCRIPT": {
+            "type": "string",
+            "nullable": true
+          },
+          "APN": {
+            "type": "string",
+            "nullable": true
+          },
+          "celular": {
+            "type": "string",
+            "nullable": true
+          },
+          "operador": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DispositivoResp": {
+        "type": "object",
+        "properties": {
+          "respuesta": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DispositivoDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FotoDTO": {
+        "type": "object",
+        "properties": {
+          "codigo": {
+            "type": "string",
+            "nullable": true
+          },
+          "imagen": {
+            "type": "string",
+            "nullable": true
+          },
+          "origen": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FotoResp": {
+        "type": "object",
+        "properties": {
+          "respuesta": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FotoDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "IncidenciaDTO": {
+        "type": "object",
+        "properties": {
+          "secuencia": {
+            "type": "string",
+            "nullable": true
+          },
+          "comentario": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha": {
+            "type": "string",
+            "nullable": true
+          },
+          "usuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "incidencia": {
+            "type": "string",
+            "nullable": true
+          },
+          "correo": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "IncidenciaResp": {
+        "type": "object",
+        "properties": {
+          "respuesta": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/IncidenciaDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginAPI": {
+        "type": "object",
+        "properties": {
+          "usuarioAPI": {
+            "type": "string",
+            "nullable": true
+          },
+          "passAPI": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginLatamResp": {
+        "type": "object",
+        "properties": {
+          "respuesta": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LoginTallerDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginTallerDTO": {
+        "type": "object",
+        "properties": {
+          "Codigo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "UsuarioId": {
+            "type": "string",
+            "nullable": true
+          },
+          "Mensaje": {
+            "type": "string",
+            "nullable": true
+          },
+          "Super": {
+            "type": "string",
+            "nullable": true
+          },
+          "Taller": {
+            "type": "string",
+            "nullable": true
+          },
+          "Convenio": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginTallerResp": {
+        "type": "object",
+        "properties": {
+          "respuesta": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LoginTallerDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrdenServicioDTO": {
+        "type": "object",
+        "properties": {
+          "orden": {
+            "type": "string",
+            "nullable": true
+          },
+          "comentario": {
+            "type": "string",
+            "nullable": true
+          },
+          "ubicacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "contacto": {
+            "type": "string",
+            "nullable": true
+          },
+          "origen": {
+            "type": "string",
+            "nullable": true
+          },
+          "trabajoFuera": {
+            "type": "string",
+            "nullable": true
+          },
+          "vehiculoId": {
+            "type": "string",
+            "nullable": true
+          },
+          "motor": {
+            "type": "string",
+            "nullable": true
+          },
+          "placa": {
+            "type": "string",
+            "nullable": true
+          },
+          "chasis": {
+            "type": "string",
+            "nullable": true
+          },
+          "marca": {
+            "type": "string",
+            "nullable": true
+          },
+          "modelo": {
+            "type": "string",
+            "nullable": true
+          },
+          "color": {
+            "type": "string",
+            "nullable": true
+          },
+          "anio": {
+            "type": "string",
+            "nullable": true
+          },
+          "cbu": {
+            "type": "string",
+            "nullable": true
+          },
+          "cliente": {
+            "type": "string",
+            "nullable": true
+          },
+          "clienteId": {
+            "type": "string",
+            "nullable": true
+          },
+          "direccion": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefono": {
+            "type": "string",
+            "nullable": true
+          },
+          "switch1": {
+            "type": "string",
+            "nullable": true
+          },
+          "switch2": {
+            "type": "string",
+            "nullable": true
+          },
+          "PuntoVentaId": {
+            "type": "string",
+            "nullable": true
+          },
+          "TurnoProgramado": {
+            "type": "string",
+            "nullable": true
+          },
+          "atendido": {
+            "type": "string",
+            "nullable": true
+          },
+          "strimagen": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrdenServicioResp": {
+        "type": "object",
+        "properties": {
+          "respuesta": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrdenServicioDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrdenTrabajoDTO": {
+        "type": "object",
+        "properties": {
+          "ordenTrabajo": {
+            "type": "string",
+            "nullable": true
+          },
+          "ClienteId": {
+            "type": "string",
+            "nullable": true
+          },
+          "vehiculoId": {
+            "type": "string",
+            "nullable": true
+          },
+          "estado": {
+            "type": "string",
+            "nullable": true
+          },
+          "realizado": {
+            "type": "string",
+            "nullable": true
+          },
+          "FechaChequeo": {
+            "type": "string",
+            "nullable": true
+          },
+          "OrdenServicio": {
+            "type": "string",
+            "nullable": true
+          },
+          "HoraTrabajo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Novedad": {
+            "type": "string",
+            "nullable": true
+          },
+          "UbicacionVehiculo": {
+            "type": "string",
+            "nullable": true
+          },
+          "observacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "item": {
+            "type": "string",
+            "nullable": true
+          },
+          "ubicacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "comentarios": {
+            "type": "string",
+            "nullable": true
+          },
+          "EstadoId": {
+            "type": "string",
+            "nullable": true
+          },
+          "TipoTransaccion": {
+            "type": "string",
+            "nullable": true
+          },
+          "producto": {
+            "type": "string",
+            "nullable": true
+          },
+          "dispositivo": {
+            "type": "string",
+            "nullable": true
+          },
+          "TipoDispositivo": {
+            "type": "string",
+            "nullable": true
+          },
+          "ObtieneDispositivo": {
+            "type": "string",
+            "nullable": true
+          },
+          "TurnoId": {
+            "type": "string",
+            "nullable": true
+          },
+          "actaEntrega": {
+            "type": "string",
+            "nullable": true
+          },
+          "accion": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrdenTrabajoResp": {
+        "type": "object",
+        "properties": {
+          "respuesta": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrdenTrabajoDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReasignacionDTO": {
+        "type": "object",
+        "properties": {
+          "VehiculoId": {
+            "type": "string",
+            "nullable": true
+          },
+          "OrdenTrabajo": {
+            "type": "string",
+            "nullable": true
+          },
+          "OrdenServicio": {
+            "type": "string",
+            "nullable": true
+          },
+          "ClienteId": {
+            "type": "string",
+            "nullable": true
+          },
+          "ClienteNombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "TurnoId": {
+            "type": "string",
+            "nullable": true
+          },
+          "Taller": {
+            "type": "string",
+            "nullable": true
+          },
+          "Origen": {
+            "type": "string",
+            "nullable": true
+          },
+          "TrabajoId": {
+            "type": "string",
+            "nullable": true
+          },
+          "Trabajo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Tecnico1": {
+            "type": "string",
+            "nullable": true
+          },
+          "Fecha1": {
+            "type": "string",
+            "nullable": true
+          },
+          "Motivo1": {
+            "type": "string",
+            "nullable": true
+          },
+          "Usuario1": {
+            "type": "string",
+            "nullable": true
+          },
+          "Tecnico2": {
+            "type": "string",
+            "nullable": true
+          },
+          "Fecha2": {
+            "type": "string",
+            "nullable": true
+          },
+          "Motivo2": {
+            "type": "string",
+            "nullable": true
+          },
+          "Usuario2": {
+            "type": "string",
+            "nullable": true
+          },
+          "Tecnico3": {
+            "type": "string",
+            "nullable": true
+          },
+          "Fecha3": {
+            "type": "string",
+            "nullable": true
+          },
+          "Motivo3": {
+            "type": "string",
+            "nullable": true
+          },
+          "Usuario3": {
+            "type": "string",
+            "nullable": true
+          },
+          "Tecnico4": {
+            "type": "string",
+            "nullable": true
+          },
+          "Fecha4": {
+            "type": "string",
+            "nullable": true
+          },
+          "Motivo4": {
+            "type": "string",
+            "nullable": true
+          },
+          "Usuario4": {
+            "type": "string",
+            "nullable": true
+          },
+          "EstadoId": {
+            "type": "string",
+            "nullable": true
+          },
+          "Estado": {
+            "type": "string",
+            "nullable": true
+          },
+          "Imagen": {
+            "type": "string",
+            "nullable": true
+          },
+          "Cant": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReasignacionResp": {
+        "type": "object",
+        "properties": {
+          "respuesta": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ReasignacionDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RecepcionDTO": {
+        "type": "object",
+        "properties": {
+          "Chasis": {
+            "type": "string",
+            "nullable": true
+          },
+          "Motor": {
+            "type": "string",
+            "nullable": true
+          },
+          "Vehiculo": {
+            "type": "string",
+            "nullable": true
+          },
+          "VehiculoId": {
+            "type": "string",
+            "nullable": true
+          },
+          "OrdenServicio": {
+            "type": "string",
+            "nullable": true
+          },
+          "Categoria": {
+            "type": "string",
+            "nullable": true
+          },
+          "producto": {
+            "type": "string",
+            "nullable": true
+          },
+          "ClienteId": {
+            "type": "string",
+            "nullable": true
+          },
+          "ClienteNombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "Empresa": {
+            "type": "string",
+            "nullable": true
+          },
+          "Sucursal": {
+            "type": "string",
+            "nullable": true
+          },
+          "Observacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "Direccion": {
+            "type": "string",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "Telefono": {
+            "type": "string",
+            "nullable": true
+          },
+          "Taller": {
+            "type": "string",
+            "nullable": true
+          },
+          "RecepcionId": {
+            "type": "string",
+            "nullable": true
+          },
+          "Entrega": {
+            "type": "string",
+            "nullable": true
+          },
+          "Recibe": {
+            "type": "string",
+            "nullable": true
+          },
+          "Aprobado": {
+            "type": "string",
+            "nullable": true
+          },
+          "TurnoId": {
+            "type": "string",
+            "nullable": true
+          },
+          "Tipo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Codtp": {
+            "type": "string",
+            "nullable": true
+          },
+          "Codigo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Cantidad": {
+            "type": "string",
+            "nullable": true
+          },
+          "Placa": {
+            "type": "string",
+            "nullable": true
+          },
+          "Auditoria": {
+            "type": "string",
+            "nullable": true
+          },
+          "Ruta": {
+            "type": "string",
+            "nullable": true
+          },
+          "Tecnico": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RecepcionResp": {
+        "type": "object",
+        "properties": {
+          "respuesta": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/RecepcionDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ServicioDTO": {
+        "type": "object",
+        "properties": {
+          "ClienteId": {
+            "type": "string",
+            "nullable": true
+          },
+          "VehiculoId": {
+            "type": "string",
+            "nullable": true
+          },
+          "Producto": {
+            "type": "string",
+            "nullable": true
+          },
+          "TipoTransaccion": {
+            "type": "string",
+            "nullable": true
+          },
+          "Transaccion": {
+            "type": "string",
+            "nullable": true
+          },
+          "Serie": {
+            "type": "string",
+            "nullable": true
+          },
+          "ModeloId": {
+            "type": "string",
+            "nullable": true
+          },
+          "MarcaId": {
+            "type": "string",
+            "nullable": true
+          },
+          "Vid": {
+            "type": "string",
+            "nullable": true
+          },
+          "Cliente": {
+            "type": "string",
+            "nullable": true
+          },
+          "Vehiculo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Ami": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ServicioResp": {
+        "type": "object",
+        "properties": {
+          "respuesta": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ServicioDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ServiciosDTO": {
+        "type": "object",
+        "properties": {
+          "ServicioCodigo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Servicio": {
+            "type": "string",
+            "nullable": true
+          },
+          "ServicioAMI": {
+            "type": "string",
+            "nullable": true
+          },
+          "ProductoCodigo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Producto": {
+            "type": "string",
+            "nullable": true
+          },
+          "Comentario": {
+            "type": "string",
+            "nullable": true
+          },
+          "NumPuertas": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ServiciosResp": {
+        "type": "object",
+        "properties": {
+          "respuesta": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ServiciosDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UsuarioDTO": {
+        "type": "object",
+        "properties": {
+          "Usuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "Token": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "Autorizacion JWT esquema. \r\n\r\n Escribe 'Bearer' [espacio] y escribe tu token.\r\n\r\nExample: \"Bearer 12345abcdef\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

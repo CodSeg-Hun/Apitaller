@@ -1,0 +1,324 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|c:\\desarrollo\\web\\api-rest\\apitaller2\\apitaller\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|solutionrelative:apitaller\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|c:\\desarrollo\\web\\api-rest\\apitaller2\\apitaller\\apitaller.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|solutionrelative:apitaller\\apitaller.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|c:\\desarrollo\\web\\api-rest\\apitaller2\\apitaller\\apitaller.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|solutionrelative:apitaller\\apitaller.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|c:\\desarrollo\\web\\api-rest\\apitaller2\\apitaller\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|solutionrelative:apitaller\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|c:\\desarrollo\\web\\api-rest\\apitaller2\\apitaller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|solutionrelative:apitaller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|c:\\desarrollo\\web\\api-rest\\apitaller2\\apitaller\\controllers\\logintallercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|solutionrelative:apitaller\\controllers\\logintallercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|c:\\desarrollo\\web\\api-rest\\apitaller2\\apitaller\\controllers\\chequeocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|solutionrelative:apitaller\\controllers\\chequeocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|c:\\desarrollo\\web\\api-rest\\apitaller2\\apitaller\\controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|solutionrelative:apitaller\\controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|c:\\desarrollo\\web\\api-rest\\apitaller2\\apitaller\\controllers\\trabajocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|solutionrelative:apitaller\\controllers\\trabajocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|c:\\desarrollo\\web\\api-rest\\apitaller2\\apitaller\\controllers\\loginlatamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|solutionrelative:apitaller\\controllers\\loginlatamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|c:\\desarrollo\\web\\api-rest\\apitaller2\\apitaller\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|solutionrelative:apitaller\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|c:\\desarrollo\\web\\api-rest\\apitaller2\\apitaller\\repositorio\\usuariossqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|solutionrelative:apitaller\\repositorio\\usuariossqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|c:\\desarrollo\\web\\api-rest\\apitaller2\\apitaller\\dto\\recepciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|solutionrelative:apitaller\\dto\\recepciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|c:\\desarrollo\\web\\api-rest\\apitaller2\\apitaller\\dto\\resp\\recepcionresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|solutionrelative:apitaller\\dto\\resp\\recepcionresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|c:\\desarrollo\\web\\api-rest\\apitaller2\\apitaller\\controllers\\recepcioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|solutionrelative:apitaller\\controllers\\recepcioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|c:\\desarrollo\\web\\api-rest\\apitaller2\\apitaller\\modelo\\loginapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|solutionrelative:apitaller\\modelo\\loginapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|c:\\desarrollo\\web\\api-rest\\apitaller2\\apitaller\\controllers\\actaentregacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB55596-7E31-4696-BAD0-1E7403D68D8C}|ApiTaller\\ApiTaller.csproj|solutionrelative:apitaller\\controllers\\actaentregacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{99b8fa2f-ab90-4f57-9c32-949f146f1914}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiTaller",
+              "DocumentMoniker": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\ApiTaller.csproj",
+              "RelativeDocumentMoniker": "ApiTaller\\ApiTaller.csproj",
+              "ToolTip": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\ApiTaller.csproj",
+              "RelativeToolTip": "ApiTaller\\ApiTaller.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-15T20:25:34.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Startup.cs",
+              "RelativeDocumentMoniker": "ApiTaller\\Startup.cs",
+              "ToolTip": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Startup.cs",
+              "RelativeToolTip": "ApiTaller\\Startup.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAGUAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T19:45:08.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Utilidades.cs",
+              "DocumentMoniker": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Utilidades.cs",
+              "RelativeDocumentMoniker": "ApiTaller\\Utilidades.cs",
+              "ToolTip": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Utilidades.cs",
+              "RelativeToolTip": "ApiTaller\\Utilidades.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T21:25:23.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Program.cs",
+              "RelativeDocumentMoniker": "ApiTaller\\Program.cs",
+              "ToolTip": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Program.cs",
+              "RelativeToolTip": "ApiTaller\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T19:45:06.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsuariosSQLServer.cs",
+              "DocumentMoniker": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Repositorio\\UsuariosSQLServer.cs",
+              "RelativeDocumentMoniker": "ApiTaller\\Repositorio\\UsuariosSQLServer.cs",
+              "ToolTip": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Repositorio\\UsuariosSQLServer.cs",
+              "RelativeToolTip": "ApiTaller\\Repositorio\\UsuariosSQLServer.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T20:12:16.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServicioController.cs",
+              "DocumentMoniker": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Controllers\\ServicioController.cs",
+              "RelativeDocumentMoniker": "ApiTaller\\Controllers\\ServicioController.cs",
+              "ToolTip": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Controllers\\ServicioController.cs",
+              "RelativeToolTip": "ApiTaller\\Controllers\\ServicioController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAIBZwCIAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T21:21:16.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "ApiTaller\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "ApiTaller\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAIBpwFUAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T21:17:25.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiTaller.csproj",
+              "DocumentMoniker": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\ApiTaller.csproj",
+              "RelativeDocumentMoniker": "ApiTaller\\ApiTaller.csproj",
+              "ToolTip": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\ApiTaller.csproj",
+              "RelativeToolTip": "ApiTaller\\ApiTaller.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-18T23:21:02.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginLatamController.cs",
+              "DocumentMoniker": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Controllers\\LoginLatamController.cs",
+              "RelativeDocumentMoniker": "ApiTaller\\Controllers\\LoginLatamController.cs",
+              "ToolTip": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Controllers\\LoginLatamController.cs",
+              "RelativeToolTip": "ApiTaller\\Controllers\\LoginLatamController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAIBZwGUAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T21:17:37.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginTallerController.cs",
+              "DocumentMoniker": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Controllers\\LoginTallerController.cs",
+              "RelativeDocumentMoniker": "ApiTaller\\Controllers\\LoginTallerController.cs",
+              "ToolTip": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Controllers\\LoginTallerController.cs",
+              "RelativeToolTip": "ApiTaller\\Controllers\\LoginTallerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T21:18:09.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RecepcionResp.cs",
+              "DocumentMoniker": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\DTO\\Resp\\RecepcionResp.cs",
+              "RelativeDocumentMoniker": "ApiTaller\\DTO\\Resp\\RecepcionResp.cs",
+              "ToolTip": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\DTO\\Resp\\RecepcionResp.cs",
+              "RelativeToolTip": "ApiTaller\\DTO\\Resp\\RecepcionResp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:47:01.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TrabajoController.cs",
+              "DocumentMoniker": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Controllers\\TrabajoController.cs",
+              "RelativeDocumentMoniker": "ApiTaller\\Controllers\\TrabajoController.cs",
+              "ToolTip": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Controllers\\TrabajoController.cs",
+              "RelativeToolTip": "ApiTaller\\Controllers\\TrabajoController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAIBZwCgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T21:21:35.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChequeoController.cs",
+              "DocumentMoniker": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Controllers\\ChequeoController.cs",
+              "RelativeDocumentMoniker": "ApiTaller\\Controllers\\ChequeoController.cs",
+              "ToolTip": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Controllers\\ChequeoController.cs",
+              "RelativeToolTip": "ApiTaller\\Controllers\\ChequeoController.cs",
+              "ViewState": "AgIAACICAAAAAAAAAIBZwM4BAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T21:14:05.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RecepcionDTO.cs",
+              "DocumentMoniker": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\DTO\\RecepcionDTO.cs",
+              "RelativeDocumentMoniker": "ApiTaller\\DTO\\RecepcionDTO.cs",
+              "ToolTip": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\DTO\\RecepcionDTO.cs",
+              "RelativeToolTip": "ApiTaller\\DTO\\RecepcionDTO.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowEMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:47:07.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RecepcionController.cs",
+              "DocumentMoniker": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Controllers\\RecepcionController.cs",
+              "RelativeDocumentMoniker": "ApiTaller\\Controllers\\RecepcionController.cs",
+              "ToolTip": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Controllers\\RecepcionController.cs",
+              "RelativeToolTip": "ApiTaller\\Controllers\\RecepcionController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAIBpwGAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T21:18:41.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginAPI.cs",
+              "DocumentMoniker": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Modelo\\LoginAPI.cs",
+              "RelativeDocumentMoniker": "ApiTaller\\Modelo\\LoginAPI.cs",
+              "ToolTip": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Modelo\\LoginAPI.cs",
+              "RelativeToolTip": "ApiTaller\\Modelo\\LoginAPI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T21:25:16.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ActaEntregaController.cs",
+              "DocumentMoniker": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Controllers\\ActaEntregaController.cs",
+              "RelativeDocumentMoniker": "ApiTaller\\Controllers\\ActaEntregaController.cs",
+              "ToolTip": "C:\\desarrollo\\web\\Api-Rest\\ApiTaller2\\ApiTaller\\Controllers\\ActaEntregaController.cs",
+              "RelativeToolTip": "ApiTaller\\Controllers\\ActaEntregaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBpwFEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T21:13:13.107Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

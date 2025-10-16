@@ -1,0 +1,1017 @@
+[
+  {
+    "ContainingType": "ApiTaller.Controllers.RecepcionController",
+    "Method": "ConsultaAccesorio",
+    "RelativePath": "ConsultaAccesorio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.AccesorioResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.ActaEntregaController",
+    "Method": "ConsultaActaEntrega",
+    "RelativePath": "ConsultaActaEntrega",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ordenServicio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vehiculo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idcliente",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.ActaEntregaResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.ChequeoController",
+    "Method": "ConsultaData",
+    "RelativePath": "ConsultaData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fechaini",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechafin",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tecnico",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ordenServicio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.ConsultaDatosResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.ChequeoController",
+    "Method": "ConsultaImagen",
+    "RelativePath": "ConsultaImagen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ordenServicio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "origen",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.FotoResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.ServicioController",
+    "Method": "ConsultarDatosControl",
+    "RelativePath": "ConsultarCombo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.ComboResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.ChequeoController",
+    "Method": "ConsultarConvenio",
+    "RelativePath": "ConsultarConvenio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fechaini",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechafin",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ordenServicio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "convenio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.ConsultaDatosResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.ServicioController",
+    "Method": "ConsultarDatosControl",
+    "RelativePath": "ConsultarDatosControl",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ordenServicio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vehiculo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "empresa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.ControlResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.TrabajoController",
+    "Method": "ConsultarDispositivo",
+    "RelativePath": "ConsultarDispositivo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orden",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dispositivo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tipoDispositivo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.DispositivoResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.ServicioController",
+    "Method": "ConsultarDispositivoServicio",
+    "RelativePath": "ConsultarDispositivoServicio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ordenServicio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vehiculo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.ServicioResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.ChequeoController",
+    "Method": "ConsultaReasignacion",
+    "RelativePath": "ConsultaReasignacion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fechaini",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechafin",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ordenServicio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vehiculo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "taller",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tecnico",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.ReasignacionResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.RecepcionController",
+    "Method": "ConsultaRecepcion",
+    "RelativePath": "ConsultaRecepcion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "identificacion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "placa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "taller",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "orden",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vehiculo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.RecepcionResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.ServicioController",
+    "Method": "ConsultarFoto",
+    "RelativePath": "ConsultarFoto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ordenServicio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vehiculo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "empresa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.FotoResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.TrabajoController",
+    "Method": "ConsultarIncidencias",
+    "RelativePath": "ConsultarIncidencias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orden",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.IncidenciaResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.TrabajoController",
+    "Method": "ConsultarOrdenServicio",
+    "RelativePath": "ConsultarOrdenServicio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orden",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.OrdenServicioResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.TrabajoController",
+    "Method": "ConsultarOrdenTrabajo",
+    "RelativePath": "ConsultarOrdenTrabajo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orden",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tecnico",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.OrdenTrabajoResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.RecepcionController",
+    "Method": "ConsultarRecepcionGeneral",
+    "RelativePath": "ConsultarRecepcionGeneral",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fechaini",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechafin",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.RecepcionResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.TrabajoController",
+    "Method": "ConsultarServiciosDisp",
+    "RelativePath": "ConsultarServiciosDisp",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orden",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.ServiciosResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.TrabajoController",
+    "Method": "ConsultasGenerales",
+    "RelativePath": "ConsultasGenerales",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.ComboResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.ChequeoController",
+    "Method": "ConsultaSupervisor",
+    "RelativePath": "ConsultaSupervisor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fechaini",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechafin",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tecnico",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "taller",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ordenServicio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.ConsultaDatosResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.ChequeoController",
+    "Method": "ConsultatecnicoAsignar",
+    "RelativePath": "ConsultatecnicoAsignar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.ComboResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioLogin",
+        "Type": "ApiTaller.Modelo.LoginAPI",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.UsuarioDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.LoginLatamController",
+    "Method": "LoginLatam",
+    "RelativePath": "LoginLatam",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.LoginLatamResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.LoginTallerController",
+    "Method": "LoginTaller",
+    "RelativePath": "LoginTaller",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.LoginTallerResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.RecepcionController",
+    "Method": "RecepcionDocumentoTecnico",
+    "RelativePath": "RecepcionDocumentoTecnico",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vehiculo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "orden",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "taller",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cliente",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "comentario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.RecepcionResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTaller.Controllers.RecepcionController",
+    "Method": "RutaDocumentoFirma",
+    "RelativePath": "RutaDocumentoFirma",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vehiculo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "orden",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tipo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiTaller.DTO.Resp.ComboResp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
